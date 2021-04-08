@@ -1,0 +1,11 @@
+    Scanner entrada = new Scanner (System.in);
+    int numero;
+        System.out.println("Ingrese un numero multiplo de 10 ");
+        numero = entrada.nextInt();
+        if (numero%10==0)
+            System.out.println("Correcto ");
+        else 
+            System.out.println("INCORRECTO. INGRESE UN NUMERO NUEVAMENTE. ");
+            
+    }
+    
